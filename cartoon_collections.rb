@@ -18,12 +18,12 @@ end
 def find_the_cheese(array_cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  # matches = cheese_types & array_cheese
-  [cheese_types & array_cheese].length > 0 ?  ([cheese_types & array_cheese][0]).to_s : nil
+  matches = cheese_types & array_cheese
+  matches.length > 0 ?  matches[0] : nil
   # if matches.length >0
   #   return matches[0]
   # else
   #   return nil
   # end
-
+  
 end
